@@ -8,7 +8,9 @@ namespace MongoDbExamples
         static void Main(string[] args)
         {
             //Task T = HandlingDocumentsAsync(args);
-            Task T = AccessingMongoDB(args);
+            //Task T = AccessingMongoDB(args);
+            //Task T = AccessingDatabaseWithClasses(args);
+            Task T = HandlingAccessWithExternalClass(args);
             Console.WriteLine("Press ENTER");
             Console.ReadLine();
         }
