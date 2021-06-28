@@ -11,7 +11,8 @@ namespace MongoDbExamples
             //Task T = AccessingMongoDB(args);
             //Task T = AccessingDatabaseWithClasses(args);
             //Task T = HandlingAccessWithExternalClass(args);
-            Task T = IncludeSeveralBooks(args);
+            //Task T = IncludeSeveralBooks(args);
+            Task T = IncludingBookList(args);
             Console.WriteLine("Press ENTER");
             Console.ReadLine();
         }
