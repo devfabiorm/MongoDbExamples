@@ -13,7 +13,8 @@ namespace MongoDbExamples
             //Task T = HandlingAccessWithExternalClass(args);
             //Task T = IncludeSeveralBooks(args);
             //Task T = IncludingBookList(args);
-            Task T = GetAllFromDataBase(args);
+            //Task T = GetAllFromDataBase(args);
+            Task T = FilterUsingBson(args);
             Console.WriteLine("Press ENTER");
             Console.ReadLine();
         }
