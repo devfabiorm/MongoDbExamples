@@ -14,7 +14,8 @@ namespace MongoDbExamples
             //Task T = IncludeSeveralBooks(args);
             //Task T = IncludingBookList(args);
             //Task T = GetAllFromDataBase(args);
-            Task T = FilterUsingBson(args);
+            //Task T = FilterUsingBson(args);
+            Task T = FilteringClass(args);
             Console.WriteLine("Press ENTER");
             Console.ReadLine();
         }
