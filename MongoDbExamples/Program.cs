@@ -16,7 +16,9 @@ namespace MongoDbExamples
             //Task T = GetAllFromDataBase(args);
             //Task T = FilterUsingBson(args);
             //Task T = FilteringClass(args);
-            Task T = OrderedList(args);
+            //Task T = OrderedList(args);
+            //Task T = UpdateDocument(args);
+            Task T = UpdateProperty(args);
             Console.WriteLine("Press ENTER");
             Console.ReadLine();
         }
